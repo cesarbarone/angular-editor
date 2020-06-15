@@ -2232,7 +2232,7 @@
 
     TitleButton.prototype.name = 'title';
 
-    TitleButton.prototype.title = '标题文字';
+    TitleButton.prototype.title = 'Título';
 
     TitleButton.prototype.htmlTag = 'h1, h2, h3, h4';
 
@@ -2241,19 +2241,19 @@
     TitleButton.prototype.menu = [
       {
         name: 'normal',
-        text: '普通文本',
+        text: 'Normal',
         param: 'p'
       }, '|', {
         name: 'h1',
-        text: '标题 1',
+        text: 'Título 1',
         param: 'h1'
       }, {
         name: 'h2',
-        text: '标题 2',
+        text: 'Título 2',
         param: 'h2'
       }, {
         name: 'h3',
-        text: '标题 3',
+        text: 'Título 3',
         param: 'h3'
       }
     ];
@@ -2346,7 +2346,7 @@
 
     BoldButton.prototype.icon = 'bold';
 
-    BoldButton.prototype.title = '加粗文字';
+    BoldButton.prototype.title = 'Negrito';
 
     BoldButton.prototype.htmlTag = 'b, strong';
 
@@ -2391,7 +2391,7 @@
 
     ItalicButton.prototype.icon = 'italic';
 
-    ItalicButton.prototype.title = '斜体文字';
+    ItalicButton.prototype.title = 'Itálico';
 
     ItalicButton.prototype.htmlTag = 'i';
 
@@ -2436,7 +2436,7 @@
 
     UnderlineButton.prototype.icon = 'underline';
 
-    UnderlineButton.prototype.title = '下划线文字';
+    UnderlineButton.prototype.title = 'Sublinhar';
 
     UnderlineButton.prototype.htmlTag = 'u';
 
@@ -2619,7 +2619,7 @@
 
     OrderListButton.prototype.name = 'ol';
 
-    OrderListButton.prototype.title = '有序列表';
+    OrderListButton.prototype.title = 'Lista com número';
 
     OrderListButton.prototype.icon = 'list-ol';
 
@@ -2641,7 +2641,7 @@
 
     UnorderListButton.prototype.name = 'ul';
 
-    UnorderListButton.prototype.title = '无序列表';
+    UnorderListButton.prototype.title = 'Lista';
 
     UnorderListButton.prototype.icon = 'list-ul';
 
@@ -2667,7 +2667,7 @@
 
     BlockquoteButton.prototype.icon = 'quote-left';
 
-    BlockquoteButton.prototype.title = '引用';
+    BlockquoteButton.prototype.title = 'Citação';
 
     BlockquoteButton.prototype.htmlTag = 'blockquote';
 
@@ -2744,7 +2744,7 @@
 
     CodeButton.prototype.icon = 'code';
 
-    CodeButton.prototype.title = '插入代码';
+    CodeButton.prototype.title = '';
 
     CodeButton.prototype.htmlTag = 'pre';
 
@@ -2881,7 +2881,7 @@
 
     LinkButton.prototype.icon = 'link';
 
-    LinkButton.prototype.title = '插入链接';
+    LinkButton.prototype.title = '';
 
     LinkButton.prototype.htmlTag = 'a';
 
@@ -3052,7 +3052,7 @@
 
     ImageButton.prototype.icon = 'picture-o';
 
-    ImageButton.prototype.title = '插入图片';
+    ImageButton.prototype.title = '';
 
     ImageButton.prototype.htmlTag = 'img';
 
@@ -3508,7 +3508,7 @@
 
     IndentButton.prototype.icon = 'indent';
 
-    IndentButton.prototype.title = '向右缩进（Tab）';
+    IndentButton.prototype.title = 'Espaço';
 
     IndentButton.prototype.status = function($node) {
       return true;
@@ -3536,7 +3536,7 @@
 
     OutdentButton.prototype.icon = 'outdent';
 
-    OutdentButton.prototype.title = '向左缩进（Shift + Tab）';
+    OutdentButton.prototype.title = 'Identar a esquerda（Shift + Tab）';
 
     OutdentButton.prototype.status = function($node) {
       return true;
@@ -3564,7 +3564,7 @@
 
     HrButton.prototype.icon = 'minus';
 
-    HrButton.prototype.title = '分隔线';
+    HrButton.prototype.title = 'Minus';
 
     HrButton.prototype.htmlTag = 'hr';
 
@@ -3605,7 +3605,7 @@
 
     TableButton.prototype.icon = 'table';
 
-    TableButton.prototype.title = '表格';
+    TableButton.prototype.title = 'Tabela';
 
     TableButton.prototype.htmlTag = 'table';
 
@@ -3999,7 +3999,7 @@
 
     StrikethroughButton.prototype.icon = 'strikethrough';
 
-    StrikethroughButton.prototype.title = '删除线文字';
+    StrikethroughButton.prototype.title = 'Riscar';
 
     StrikethroughButton.prototype.htmlTag = 'strike';
 
